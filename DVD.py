@@ -5,7 +5,7 @@ import random
 ANCHO_CANVAS = 400
 ALTO_CANVAS = 300
 RADIO_PELOTA = 50
-VELOCIDAD_PELOTA = 3
+VELOCIDAD_PELOTA = 2 
 
 # Función para mover la pelota
 def mover_pelota():
@@ -42,7 +42,7 @@ def iniciar_movimiento():
 
 # Crear la ventana principal
 ventana = Tk()
-ventana.title("Movimiento de Pelota")
+ventana.title("Pantalla de Carga DVD")
 ventana.geometry(f"{(ANCHO_CANVAS+10)}x{(ALTO_CANVAS+60)}")
 ventana.resizable(0, 0)
 
